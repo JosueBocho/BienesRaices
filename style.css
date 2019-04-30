@@ -1,0 +1,42 @@
+body{
+    font-family: 'Lato', sans-serif;
+}   
+   
+
+   /* Globales */
+.contenedor{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+   
+   /* Header */
+
+.site-header.inicio{
+    background-image: url(img/header.jpg);
+    background-position: center;
+    height: 100vh;
+    background-size: cover;
+    min-height: 600px;
+
+}
+
+.barra{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.navegacion a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 20px
+}
+.navegacion a:hover{
+    color: #71B100;
+}
+.navegacion a:last-of-type{
+    margin: 0px;
+}
